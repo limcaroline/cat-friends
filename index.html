@@ -92,7 +92,6 @@
     <!-- Header with carousel -->
     <header id="header" class="container section">
       <div class="row">
-        
         <div class="col-12 col-xl-6">
           <div
             id="carouselExampleAutoplaying"
@@ -150,7 +149,6 @@
           </p>
           <p class="my-4">Welcome welcome welcome</p>
         </div>
-
       </div>
     </header>
 
@@ -163,7 +161,7 @@
             <h2 class="display-6">Hang out with us!</h2>
           </div>
 
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xl-4">
             <div class="card">
               <img
                 src="assets/images/cat-friends-logo-square.png"
@@ -172,17 +170,23 @@
               />
               <div class="card-body">
                 <h3 class="card-title sub-heading-color">Cafe meetups</h3>
+                <div class="card-subtitle">
+                  <p class="mb-0">Free entry</p>
+                </div>
                 <p class="card-text">
-                  Have a sip of coffee while petting our beloved Cat Friends and more pet friends.
+                  Have a sip of coffee while petting our beloved Cat Friends and
+                  more pet friends.
                 </p>
               </div>
+              <!--
               <div class="card-footer">
                 <p class="mb-0">Free entry</p>
-              </div>
+              </div> 
+              -->
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xl-4">
             <div class="card">
               <img
                 src="assets/images/cat-band-home.jpg"
@@ -192,17 +196,22 @@
               <div class="card-body">
                 <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
                 <h3 class="card-title sub-heading-color">Concerts and shows</h3>
+                <div class="card-subtitle">
+                  <p class="mb-0">From 120 kr</p>
+                </div>
                 <p class="card-text">
-                  Come see our shows! We'll play music, dance to the beat, and mix fun and quality time together!
+                  Come see our shows! We'll play music, dance to the beat, and
+                  mix fun and quality time together!
                 </p>
               </div>
+              <!--
               <div class="card-footer">
                 <p class="mb-0">From 120 kr</p>
               </div>
-            </div>
+            --></div>
           </div>
 
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xl-4">
             <div class="card">
               <img
                 src="assets/images/cat-band-home.jpg"
@@ -212,32 +221,82 @@
               <div class="card-body">
                 <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
                 <h3 class="card-title sub-heading-color">Private events</h3>
+                <div class="card-subtitle">
+                  <p class="mb-0">Inquire with us!</p>
+                </div>
                 <p class="card-text">
-                  Invite us over to your parties, gatherings, and meetups! We'll bring the fun and music, you'll bring family and friends! What a blast it will be!
+                  Invite us over to your parties, gatherings, and meetups! We'll
+                  bring the fun and music, you'll bring family and friends! What
+                  a blast it will be!
                 </p>
               </div>
+              <!--
               <div class="card-footer">
                 <p class="mb-0">Inquire with us!</p>
               </div>
+              -->
             </div>
           </div>
-
         </div>
       </section>
     </main>
 
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
-    <footer class="mt-auto">
+    <footer id="contact" class="mt-auto">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12">Contact section heading</div>
+          <div class="col-12 text-center">
+            <h2 class="display-6">Contact us!</h2>
+          </div>
           <!-- Contact info -->
           <div class="col-12 col-md-6 col-xl-4">
-            Contact info and social media
+            <h3 class="sub-heading-color">Find us at:</h3>
+            <address>
+              <strong
+                ><i class="fa-solid fa-map-location"></i>Cat Friends
+                Office</strong
+              ><br />
+              Kattsgatan 12<br />
+              11777 Stockholm<br />
+              <p id="contact-hours">Open daily from 8:00-20:00</p>
+            </address>
           </div>
-          <!-- Opening times -->
-          <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+          <!-- Digital -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="sub-heading-color">Talk to us via:</h3>
+            <p>
+              <i class="fa-solid fa-mobile-screen-button"></i>+46 070 987 4321
+            </p>
+            <p><i class="fa-solid fa-inbox"></i>kundservice@catfriends.se</p>
+          </div>
+          <!-- Social media -->
+          <div class="social-links mt-4">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              aria-label="Visit our TikTok page (opens in a new tab)"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
