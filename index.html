@@ -92,13 +92,7 @@
     <!-- Header with carousel -->
     <header id="header" class="container section">
       <div class="row">
-        <div class="col-12 col-xl-6 text-center text-xl-start">
-          <h1 class="display-3">Hi there, Cat friend!</h1>
-          <p class="lead display-6 sub-heading-color">
-            Your pet friends are here to make music and memories with you!
-          </p>
-          <p class="my-4">Welcome welcome welcome</p>
-        </div>
+        
         <div class="col-12 col-xl-6">
           <div
             id="carouselExampleAutoplaying"
@@ -107,10 +101,18 @@
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/images/cat-friends-logo-square.png" class="d-block w-100" alt="Cat Friends Logo" />
+                <img
+                  src="assets/images/cat-friends-logo-square.png"
+                  class="d-block w-100"
+                  alt="Cat Friends Logo"
+                />
               </div>
               <div class="carousel-item">
-                <img src="assets/images/cat-band-home.jpg" class="d-block w-100" alt="The official first album photo of the Cat Friends" />
+                <img
+                  src="assets/images/cat-band-home.jpg"
+                  class="d-block w-100"
+                  alt="The official first album photo of the Cat Friends"
+                />
               </div>
             </div>
 
@@ -140,18 +142,86 @@
             </button>
           </div>
         </div>
+
+        <div class="col-12 col-xl-6 text-center text-xl-start">
+          <h1 class="display-3">Hi there, Cat friend!</h1>
+          <p class="lead display-6 sub-heading-color">
+            Your pet friends are here to make music and memories with you!
+          </p>
+          <p class="my-4">Welcome welcome welcome</p>
+        </div>
+
       </div>
     </header>
 
     <!-- main element to hold all key elements of the home page. It is not part of the grid structure -->
     <main>
-      <!-- Events section -->
-      <section class="container">
+      <!-- Events overview section -->
+      <section id="events-overview" class="container section">
         <div class="row">
-          <div class="col-12">Events section heading</div>
-          <div class="col-12 col-md-4 col-xl-4">Events card</div>
-          <div class="col-12 col-md-4 col-xl-4">Events card</div>
-          <div class="col-12 col-md-4 col-xl-4">Events card</div>
+          <div class="col-12 text-center">
+            <h2 class="display-6">Hang out with us!</h2>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/cat-friends-logo-square.png"
+                class="card-img-top"
+                alt="Visit The Cutest Cats cafe at xx place"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Cafe meetups</h3>
+                <p class="card-text">
+                  Have a sip of coffee while petting our beloved Cat Friends and more pet friends.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="mb-0">Free entry</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/cat-band-home.jpg"
+                class="card-img-top"
+                alt="Friends singing, dancing, and having fun together"
+              />
+              <div class="card-body">
+                <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
+                <h3 class="card-title sub-heading-color">Concerts and shows</h3>
+                <p class="card-text">
+                  Come see our shows! We'll play music, dance to the beat, and mix fun and quality time together!
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="mb-0">From 120 kr</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/cat-band-home.jpg"
+                class="card-img-top"
+                alt="Friends singing, dancing, and having fun together"
+              />
+              <div class="card-body">
+                <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
+                <h3 class="card-title sub-heading-color">Private events</h3>
+                <p class="card-text">
+                  Invite us over to your parties, gatherings, and meetups! We'll bring the fun and music, you'll bring family and friends! What a blast it will be!
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="mb-0">Inquire with us!</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </main>
