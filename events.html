@@ -22,14 +22,112 @@
 <!-- Classes on body set up to work with mt-auto on footer so it stays at the page bottom-->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+        <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/images/cat-friends-logo.png"
+            alt="Cat Friends logo"
+            class="logo"
+          />
+          Cat Friends
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Header with carousel -->
+    <!-- Placeholder text
     <header class="container">
         <div class="row">
             <div class="col-12 col-xl-6">Cat Friends intro text section</div>
             <div class="col-12 col-xl-6">Carousel</div>
         </div>
+    </header> -->
+
+    <header id="header" class="container section">
+      <div class="row">
+        <div class="col-12 col-xl-6 text-center text-xl-start">
+          <h1 class="display-3">Events</h1>
+          <p class="lead display-6 sub-heading-color">
+            Come and join your pet friends!
+          </p>
+          <p class="my-4">Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome Welcome welcome welcome!</p>
+        </div>
+        <div class="col-12 col-xl-6">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/cat-friends-logo-square.png" class="d-block w-100" alt="Cat Friends Logo" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/cat-band-home.jpg" class="d-block w-100" alt="The official first album photo of the Cat Friends" />
+              </div>
+            </div>
+            
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- main element to hold all key elements of the events page. It is not part of the grid structure -->
