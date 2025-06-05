@@ -24,7 +24,6 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    /* text-transform: uppercase; */
 }
 
 h2 {
@@ -40,10 +39,23 @@ h2 {
     margin-bottom: 2rem;
 } 
 
+/* Buttons */
+.custom-button {
+    border: 1px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+
+.custom-button:hover {
+    border: 1px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
-    font-family: var(--tertiary-font);
+    font-family: var(--tertiary-font);   
 }
 
 #navbar-logo {
@@ -51,7 +63,6 @@ h2 {
 }
 
 /* Header */
-
 #header .lead {
     font-family: var(--secondary-font);
 } 
@@ -73,6 +84,16 @@ h2 {
     border: none;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Booking table */
 #booking .table-dark * {
     background-color: var(--primary-color);
@@ -82,17 +103,18 @@ h2 {
 #contact {
     background-color: var(--primary-color);
     color: white;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 2rem;    
 }
 
 #contact h2 {
     color: var(--highlight-color);
     margin-top: 4px;
 }
+
 #contact .sub-heading-color {
     color: white;
 }
+
 #contact #contact-hours {
     font-style: italic;
 }
@@ -106,7 +128,6 @@ h2 {
 #contact .social-links {
     display: flex;                  
     justify-content: center;                   
-
 }
 
 #contact .social-links i {
@@ -114,7 +135,6 @@ h2 {
     font-size: 2.1rem;
     transition: color 0.25s ease-in-out;
     margin-top: 8px;
- 
 }
 
 #contact .social-links i:hover {
@@ -142,6 +162,11 @@ h2 {
     #events-overview .card-body {
         min-height: 200px;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Larger devices (laptops, 992px and up) with dimensions from Bootstrap */
@@ -149,6 +174,11 @@ h2 {
     /* Make cards the same height */
     #events-overview .card-body {
         min-height: auto;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 

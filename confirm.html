@@ -77,10 +77,7 @@
               <a class="nav-link" href="index.html#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a
-                href="booking.html"
-                class="btn custom-button ms-lg-3"
-                aria-current="page"
+              <a href="booking.html" class="btn custom-button ms-lg-3"
                 >Book now</a
               >
             </li>
@@ -89,63 +86,17 @@
       </div>
     </nav>
 
-    <!-- header -->
-    <header id="header" class="container section">
+    <!-- success message for users who successfully submit a form -->
+    <main id="success" class="container section text-center">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-9 text-center text-xl-start">
-          <h1 class="display-3">Booking for Private Events</h1>
-          <p class="my-4">Thank you thank you.</p>
+        <div class="col-12 col-md-9">
+          <h1 class="display-3 mb-4">Thank you for your inquiry!</h1>
+          <p class="lead mb-4">Your inquiry is now submitted. We will reach out to you using the contact details you have provided within 1-2 business days.</p>
+          <a href="index.html" class="btn custom-button btn-lg mb-5 hover-grow"
+            >Return to the home page</a
+          >
         </div>
       </div>
-    </header>
-
-    <main>
-      <!-- booking -->
-      <section id="booking-form" class="container section">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-9">
-            <form action="confirm.html" method="GET">
-              <div class="row">
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="event-type" class="form-label">Event type</label>
-                  <select id="event-type" class="form-select" name="event-type" required>
-                    <option value="" selected>Select</option>
-                    <option value="children">Children's party</option>
-                    <option value="family">Family event</option>
-                    <option value="work">Work gathering</option>
-                    <option value="school">School gathering</option>
-                    <option value="other">Other (please describe in message)</option>
-                  </select>
-                </div>
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input class="form-control" id="name" name="name" type="text" required/>
-                </div>
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="email" class="form-label">Email Address</label>
-                  <input class="form-control" id="email" name="email" type="email" required/>
-                </div>
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="mobile" class="form-label">Mobile number</label>
-                  <input class="form-control" id="mobile" name="mobile" type="number" required/>
-                </div>
-                <div class="col-12 mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea
-                    class="form-control"
-                    rows="6"
-                    id="message" 
-                    name="message" 
-                    required
-                  ></textarea>
-                </div>
-              </div>
-
-              <button type="submit" class="btn custom-button">Submit</button>
-            </form>
-          </div>
-        </div>
-      </section>
     </main>
 
     <!-- Footer / contact section -->
