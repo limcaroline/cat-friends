@@ -1,10 +1,11 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Unkempt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Unkempt:wght@400;700&display=swap');
 
 /* CSS Variables */
 :root {
     --primary-font: "Lato", sans-serif;
-    --secondary-font: "Unkempt", cursive;
+    --secondary-font: "Lora", cursive;
+    --tertiary-font: "Unkempt", cursive;
     --primary-color: #14a4b1; /* blue */
     --secondary-color: #a1c1c8; /* light blue */
     --highlight-color: #c42365; /* dark pink */
@@ -23,20 +24,33 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} 
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
+    font-family: var(--tertiary-font);
 }
 
 #navbar-logo {
     width: 3px;
 }
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+} 
 
 /* grid visualization CSS for testing */
 
