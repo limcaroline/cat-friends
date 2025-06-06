@@ -88,12 +88,16 @@ h2 {
 #photos img {
     width: 100%;
     line-height: 1em;
-    column-gap: 0;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
 }
 
 #photos {
     line-height: 0;
-    column-gap: 0;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
 }
 
 /* Booking table */
@@ -128,13 +132,19 @@ h2 {
 }
 
 #contact .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;                  
-    justify-content: center;                   
+    -webkit-box-pack: center;                  
+        -ms-flex-pack: center;                  
+            justify-content: center;                   
 }
 
 #contact .social-links i {
     color: white;
     font-size: 2.1rem;
+    -webkit-transition: color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out;
     transition: color 0.25s ease-in-out;
     margin-top: 8px;
 }
@@ -156,7 +166,9 @@ h2 {
 
     /* Gallery */
     #photos {
-        column-count: 3;
+        -webkit-column-count: 3;
+           -moz-column-count: 3;
+                column-count: 3;
     }
 }
 
@@ -169,7 +181,9 @@ h2 {
 
     /* Gallery */
     #photos {
-        column-count: 4;
+        -webkit-column-count: 4;
+           -moz-column-count: 4;
+                column-count: 4;
     }
 }
 
