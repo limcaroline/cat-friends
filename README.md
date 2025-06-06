@@ -132,19 +132,19 @@ Languages Used
 
 
 **Frameworks, Libraries & Programs Used**
-- Github for saving and storing files, and version control
-- Bootstap Version 5.3 for styling/layout
-- Google Fonts for typography
-- Font Awesome for icons
-- Autoprefixer for CSS versatility
-- The W3C CSS Validation Service to review codes
-- Nu Html Checker to review codes
-- WebAIM: Contrast Checker to verify contrast for color palette
-- IMAGECOLORPICKER.com to choose color palette
-- VS Code for local development 
-- Canva for images
-- Preview Editor app for editing photos
-- Squoosh for converting image file types from png/jpg to. webp
+- Github for saving and storing files, and version control https://github.com/
+- Bootstap Version 5.3 for styling/layout https://getbootstrap.com/
+- Google Fonts for typography https://fonts.google.com/
+- Font Awesome for icons https://fontawesome.com/
+- Autoprefixer for CSS versatility https://autoprefixer.github.io/
+- The W3C CSS Validation Service to review codes https://www.w3.org/
+- Nu Html Checker to review codes https://validator.nu/
+- WebAIM: Contrast Checker to verify contrast for color palette https://webaim.org/resources/contrastchecker/
+- IMAGECOLORPICKER.com to choose color palette https://imagecolorpicker.com/
+- VS Code for local development https://code.visualstudio.com/
+- Canva for images https://www.canva.com/
+- Preview Editor app in MacBook for editing photos https://preview.app/login
+- Squoosh for converting image file types from png/jpg to. webp https://squoosh.app/
 
 **Deployment & Local Development**
 Github Repo: https://github.com/limcaroline/cat-friends
@@ -215,16 +215,17 @@ Content
 - I wrote the content with support - see 'Acknowledgments' below.
 
 Media
-- See also **Frameworks, Libraries & Programs Used** 
+- See also **Frameworks, Libraries & Programs Used** for more references
 - Canva for images 
 - Bootstap Version 5.3 for styling/layout
 - Google Fonts for typography
 - Font Awesome for icons
 
 Code
-- Bootstrap for cards and similar, also see comments in VSCode
-- Code Institute's modules, including BoardWalk Games and Love Running
-- ChatGPT for helping with some debugging and structuring
+- Bootstrap for cards and similar, also see comments in VSCode https://getbootstrap.com/
+- Code Institute's modules, including BoardWalk Games and Love Running https://learn.codeinstitute.net/dashboard
+- ChatGPT for helping with some debugging and structuring https://chatgpt.com/
+- Autoprefixer for code prefix on transition, also see comment https://autoprefixer.github.io/
 
 Acknowledgments
 - Big thanks to Code Institute’s team as well as materials and Level 5 Diploma in Web Application Development modules, especially Love Running and Boardwalk Games, on which I have referred to a lot in the building of the entire project from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge. Thank you CI team for your support and hard work - much, much appreciated! 
