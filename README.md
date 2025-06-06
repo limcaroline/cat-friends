@@ -119,6 +119,8 @@ Languages Used
 - IMAGECOLORPICKER.com to choose color palette
 - VS Code for local development 
 - Canva for images
+- Preview Editor app for editing photos
+- Squoosh for converting image file types from png/jpg to. webp
 
 **Deployment & Local Development**
 Github Repo: https://github.com/limcaroline/cat-friends
@@ -162,8 +164,7 @@ Manual testing
 
 Automated testing
 - Use Lighthouse to create automated reports that assess the performance, accessibility and best practices of the pages.
-I have gotten the results to green particularly on performance by changing the image file types from png/jpg to webp.
-The color contrast for some parts like buttons were also highlighted to be slightly lower than regular by Lighthouse; however, I have chosen not to change it as the hover makes the button dark - hence, the contrast increases. 
+I have gotten the results to green particularly on performance by changing the image file types from png/jpg to webp. Also updated the color contrast and put some styling in bold in parts like navigation menu and buttons.
 ![Lighthouse analysis results before fix](assets/images/Lighthouse before.jpg)
 ![Lighthouse analysis results after fix](assets/images/lighthouse-after.jpg)
 - Validate the HTML code for all 3 pages. >> Fixed few errors such as unclosed elements and warnings such as lacking headers. See screenshots for example.
@@ -180,8 +181,6 @@ Note: Also used autoprefixer and CSS validation >> Copy pasted from autofixer fo
 Future Implementation
 - Add an About page describing the band and its member profiles. This is a user story existing as could-have in the To-Do list in the cat-friend repo.
 - Add a Ticket booking and payment sections.
-- Increase the contrast in some parts by revisiting the color palette of the brand.
-
 
 **Credits**
 Content
@@ -195,6 +194,6 @@ Media
 - Font Awesome for icons
 
 Acknowledgments
-- Big thanks to Code Institute’s materials and Level 5 Diploma in Web Application Development modules on which I have referred to a lot in the building of the entire project, from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge.
+- Big thanks to Code Institute’s team as well as materials and Level 5 Diploma in Web Application Development modules, especially Love Running and BoardwalkGames, on which I have referred to a lot in the building of the entire project from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge. Thank you CI, team - much, much appreciated! 
 - Special thanks to ChatGPT by OpenAI for assistance in troubleshooting and debugging, as well as support in ideas and structure especially in documenting this project.
 
