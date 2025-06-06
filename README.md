@@ -77,15 +77,15 @@ Menu
 
 Wireframes
 
-![8832E8A5-534D-4316-992E-2AFD897D18D2_1_201_a](https://github.com/user-attachments/assets/285be326-d030-4dc6-a32a-7af146d7854a)
-![9B88F3F4-346D-473D-BB0A-D0F5B03C57D7_1_201_a](https://github.com/user-attachments/assets/042e1966-910b-40dd-8f92-5808d40a97a4)
-![8DB51D67-EC1D-43E5-A1A0-AF47E53C7597_1_201_a](https://github.com/user-attachments/assets/b74da77c-9684-4e14-a93c-9750d14167d9)
-![BB9E7C9A-A31B-4804-A990-91DD3DBE9744_1_201_a](https://github.com/user-attachments/assets/a1f404c3-ef57-4166-8e4f-81af3e76463a)
-![CC3C5FD6-3FC1-428E-BC2C-6A0232207A56_1_201_a](https://github.com/user-attachments/assets/d7151a2d-40ea-4fca-89d3-f8a3aaa1fb35)
-![CD3348E2-B169-455B-BD24-0C5C549DD10B_1_201_a](https://github.com/user-attachments/assets/a4298cfb-c87f-4d1b-b83b-e39f121d2be5)
-![FDB00297-4D67-4E64-A003-2E9052D48059](https://github.com/user-attachments/assets/424c26f9-5474-4ed0-a159-63047de295be)
-![BE080B35-65EF-41BA-A356-D6DA745BBD78_1_201_a](https://github.com/user-attachments/assets/577b61cd-97a3-4b48-9aaa-92ebe928718c)
-![99229491-7628-4BDF-936E-C0BDB2523846_1_201_a](https://github.com/user-attachments/assets/1868deb5-e710-4f04-bb82-f39b6c937657)
+![Wireframe for mobile 1](assets/images/IMG_1531.jpeg)
+![Wireframe for mobile 2](assets/images/IMG_1533.jpeg)
+![Wireframe for mobile 3](assets/images/IMG_1534.jpeg)
+![Wireframe for tablet 1](assets/images/IMG_1535.jpeg)
+![Wireframe for tablet 2](assets/images/IMG_1536.jpeg)
+![Wireframe for tablet 3](assets/images/IMG_1537.jpeg)
+![Wireframe for laptop 1](assets/images/Image 2025-06-04 at 10.42.jpg)
+![Wireframe for laptop 2](assets/images/IMG_1541.jpeg)
+![Wireframe for laptop 3](assets/images/IMG_1542.jpeg)
 
 
 **Features**
@@ -95,7 +95,9 @@ Wireframes
 - Simple HTML contact/booking form  
 - Responsive image gallery
 - Navigation bar for easy browsing  
-
+- Designed with on-brand color palette and font styles
+I used the below color palette from IMAGECOLORPICKER.com
+![Color Palette selected](assets/images/color-checker-using-canva-image.jpg)
 Add screenshots of website (full screen screenshots easier)
 
 
@@ -110,38 +112,75 @@ Languages Used
 - Bootstap Version 5.3 for styling/layout
 - Google Fonts for typography
 - Font Awesome for icons
+- Autoprefixer for CSS versatility
 - The W3C CSS Validation Service to review codes
 - Nu Html Checker to review codes
 - WebAIM: Contrast Checker to verify contrast for color palette
-- Color Picker online to choose color palette
+- IMAGECOLORPICKER.com to choose color palette
 - VS Code for local development 
 - Canva for images
 
 **Deployment & Local Development**
-- Deployed via GitHub Pages
-- Link: [https://
+Github Repo: https://github.com/limcaroline/cat-friends
 
-- Run locally: (Copy from Code Institute's and credit directly)
-…
-
+How to create repo in Github for deployments
+I first followed these steps from Code Institute module to create a repo in github:
+1. Log into www.github.com. Click the plus icon and select New repository.
+2. Name the repository accordingly - I used cat-friends.
+3. Select Create repository.
+4. Copy the commands from … or create a new repository on the command line.
+5. In VS Code, use "Open folder" from the file menu to open your vscode-projects folder and create a new project directory.
+6. Open a new terminal, and paste in the commands copied from GitHub.
+7. You should now see the README.md file appear in the Explorer.
 
 How to Deploy
-github
+These are the steps to deploy in github that I followed, also referenced from Code Institute's module:
+1. From VSCode, commit and push all your changes to Github.
+2. Go to GitHub repo https://github.com/limcaroline/cat-friends, select Settings, then Pages.
+3. Select the main branch and then Save.
+4. In the Code tab, select Deployments.
+5. On the Deployments page, refresh until the link is provided.
+6. Click the link to check that it is working
 
 How to Fork
-github
-
+1. In Github, go to the Repository for cat-friends: https://github.com/limcaroline/cat-friends
+2. Click the Fork button at the top right of this page to create your own copy of the repo.
 
 How to Clone
-github
+1. In Github, go to the Repository for cat-friends: https://github.com/limcaroline/cat-friends
+2. Click the green Code button.
+3. Copy the URL under "HTTPS".
+4. Open your terminal.
+5. Run this command: git clone https://github.com/limcaroline/cat-friends
 
 
 **Testing**
+I have followed the testing steps laid out by Code Institute in the Boardwalk Games module. Here I have copied their instructions as a checklist as I have done these step by step:
+
 Manual testing
+- Manually test the pages for responsiveness, functionality and user experience.
 
-Lighthouse
+Automated testing
+- Use Lighthouse to create automated reports that assess the performance, accessibility and best practices of the pages.
+I have gotten the results to green particularly on performance by changing the image file types from png/jpg to webp.
+The color contrast for some parts like buttons were also highlighted to be slightly lower than regular by Lighthouse; however, I have chosen not to change it as the hover makes the button dark - hence, the contrast increases. 
+![Lighthouse analysis results before fix](assets/images/Lighthouse before.jpg)
+![Lighthouse analysis results after fix](assets/images/lighthouse-after.jpg)
+- Validate the HTML code for all 3 pages. >> Fixed few errors such as unclosed elements and warnings such as lacking headers. See screenshots for example.
+![NU HTML Checker results before fix](assets/images/nu-html-checker-before.jpg)
+![NU HTML Checker results after fix](assets/images/nu-html-checker-after.jpg)
 
-Validation
+Validation testing
+Note: Also used autoprefixer and CSS validation >> Copy pasted from autofixer for the transition code for social links, similar to what was done in Boardwalk Games which I have followed through this project. All CSS ok. 
+![CSS Autoprefixer](assets/images/autoprefixer-css.jpg)
+![W3C CSS Validation results](assets/images/w3c-validation.jpg)
+- For any issues indicated during testing, assess the feasibility of fixing them.
+- Fix any issues that are feasible to fix. (Note that the screenshots above show the "before fix" and "after fix")
+
+Future Implementation
+- Add an About page describing the band and its member profiles. This is a user story existing as could-have in the To-Do list in the cat-friend repo.
+- Add a Ticket booking and payment sections.
+- Increase the contrast in some parts by revisiting the color palette of the brand.
 
 
 **Credits**
@@ -156,6 +195,6 @@ Media
 - Font Awesome for icons
 
 Acknowledgments
-- Big thanks to Code Institute’s materials and modules which I have referred to a lot in the building of the entire project, from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge.
+- Big thanks to Code Institute’s materials and Level 5 Diploma in Web Application Development modules on which I have referred to a lot in the building of the entire project, from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge.
 - Special thanks to ChatGPT by OpenAI for assistance in troubleshooting and debugging, as well as support in ideas and structure especially in documenting this project.
 
