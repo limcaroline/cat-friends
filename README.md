@@ -96,8 +96,66 @@ Wireframes
 - Responsive image gallery
 - Navigation bar for easy browsing  
 
+Add screenshots of website (full screen screenshots easier)
+
 
 **Technologies Used**
 Languages Used
 - HTML  
 - CSS  
+
+
+**Frameworks, Libraries & Programs Used**
+- Github for saving and storing files, and version control
+- Bootstap Version 5.3 for styling/layout
+- Google Fonts for typography
+- Font Awesome for icons
+- The W3C CSS Validation Service to review codes
+- Nu Html Checker to review codes
+- WebAIM: Contrast Checker to verify contrast for color palette
+- Color Picker online to choose color palette
+- VS Code for local development 
+- Canva for images
+
+**Deployment & Local Development**
+- Deployed via GitHub Pages
+- Link: [https://
+
+- Run locally: (Copy from Code Institute's and credit directly)
+…
+
+
+How to Deploy
+github
+
+How to Fork
+github
+
+
+How to Clone
+github
+
+
+**Testing**
+Manual testing
+
+Lighthouse
+
+Validation
+
+
+**Credits**
+Content
+- I wrote the content with support - see 'Acknowledgments' below.
+
+Media
+- See also **Frameworks, Libraries & Programs Used** 
+- Canva for images 
+- Bootstap Version 5.3 for styling/layout
+- Google Fonts for typography
+- Font Awesome for icons
+
+Acknowledgments
+- Big thanks to Code Institute’s materials and modules which I have referred to a lot in the building of the entire project, from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge.
+- Special thanks to ChatGPT by OpenAI for assistance in troubleshooting and debugging, as well as support in ideas and structure especially in documenting this project.
+
