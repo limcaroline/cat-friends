@@ -3,18 +3,26 @@
 **Table of Contents**
 
 Project Overview
+
 Purpose
 - Business Goals
 - Target Users
 - User Needs
+
 User Stories Overview
+
 Website Structure
 - Menu
 - Wireframes 
+
 Features
+
 Technologies Used
+
 Deployment & Local Development
+
 Testing
+
 Credits
 
 
@@ -44,10 +52,11 @@ User Needs
 
 
 **User Stories Overview**
+Stories have been updated in https://github.com/users/limcaroline/projects/4. Here is an initial overview:
 
 1. Navigate Easily  
 As a user, I want clear navigation.  
-Navbar includes Home, Events, Booking, Gallery, About.
+Navbar includes Home, Events, Gallery, Contact, Booking.
 
 2. Check Events  
 As a visitor, I want to see upcoming shows so I can attend.  
@@ -57,7 +66,7 @@ Events are shown with details and sorted by date.
 As an event planner, I want to easily book the Cat Band.  
 Booking form or email contact is clearly available.
 
-4. Learn About the Band  
+4. Contact the Band 
 As a fan, I want to learn about the band and its members.  
 About page includes bio of band and its members.
 
@@ -70,9 +79,9 @@ Gallery page is responsive and organized.
 
 Menu
 - Home: Welcome message
-- Events: List with description of café, concert, and private events
-- About: Bio of band and its members  
+- Events: List with description of café, concert, and private events 
 - Gallery: Photos and similar media 
+- Contact: Contact details - location, opening hours, phone/email, social links
 - Booking: Book the band 
 
 Wireframes
@@ -83,22 +92,37 @@ Wireframes
 ![Wireframe for tablet 1](assets/images/IMG_1535.jpeg)
 ![Wireframe for tablet 2](assets/images/IMG_1536.jpeg)
 ![Wireframe for tablet 3](assets/images/IMG_1537.jpeg)
-![Wireframe for laptop 1](assets/images/Image 2025-06-04 at 10.42.jpg)
+![Wireframe for laptop 1](assets/images/laptop-wireframe-1.jpg)
 ![Wireframe for laptop 2](assets/images/IMG_1541.jpeg)
 ![Wireframe for laptop 3](assets/images/IMG_1542.jpeg)
 
 
 **Features**
 
-- Responsive layout using CSS  
-- Event listings in card format  
-- Simple HTML contact/booking form  
-- Responsive image gallery
+- Responsive layout using CSS - mobile, tablets, laptops, desktop, larger desktops
 - Navigation bar for easy browsing  
+![Mobile homepage](assets/images/mobile.jpg)
+![Mobile homepage](assets/images/laptop.jpg)
+
+
+- Event listings in card and list format  
+Card format for overview
+![Mobile homepage](assets/images/events-overview.jpg)
+List format for actual events (many/more than overview)
+![Mobile homepage](assets/images/events.jpg)
+
+- Simple HTML contact/booking form with validation and success confirmation
+![Mobile homepage](assets/images/booking-validation1.jpg)
+![Mobile homepage](assets/images/booking-validation2.jpg)
+![Mobile homepage](assets/images/confirmation.jpg)
+![Mobile homepage](assets/images/contact.jpg)
+
+- Responsive image gallery
+![Mobile homepage](assets/images/gallery.jpg)
+
 - Designed with on-brand color palette and font styles
 I used the below color palette from IMAGECOLORPICKER.com
 ![Color Palette selected](assets/images/color-checker-using-canva-image.jpg)
-Add screenshots of website (full screen screenshots easier)
 
 
 **Technologies Used**
@@ -165,8 +189,9 @@ Manual testing
 Automated testing
 - Use Lighthouse to create automated reports that assess the performance, accessibility and best practices of the pages.
 I have gotten the results to green particularly on performance by changing the image file types from png/jpg to webp. Also updated the color contrast and put some styling in bold in parts like navigation menu and buttons.
-![Lighthouse analysis results before fix](assets/images/Lighthouse before.jpg)
+![Lighthouse analysis results before fix](assets/images/lighthouse-before.jpg)
 ![Lighthouse analysis results after fix](assets/images/lighthouse-after.jpg)
+
 - Validate the HTML code for all 3 pages. >> Fixed few errors such as unclosed elements and warnings such as lacking headers. See screenshots for example.
 ![NU HTML Checker results before fix](assets/images/nu-html-checker-before.jpg)
 ![NU HTML Checker results after fix](assets/images/nu-html-checker-after.jpg)
@@ -178,11 +203,14 @@ Note: Also used autoprefixer and CSS validation >> Copy pasted from autofixer fo
 - For any issues indicated during testing, assess the feasibility of fixing them.
 - Fix any issues that are feasible to fix. (Note that the screenshots above show the "before fix" and "after fix")
 
-Future Implementation
+
+**Future Implementation**
 - Add an About page describing the band and its member profiles. This is a user story existing as could-have in the To-Do list in the cat-friend repo.
 - Add a Ticket booking and payment sections.
 
+
 **Credits**
+
 Content
 - I wrote the content with support - see 'Acknowledgments' below.
 
@@ -194,6 +222,7 @@ Media
 - Font Awesome for icons
 
 Acknowledgments
-- Big thanks to Code Institute’s team as well as materials and Level 5 Diploma in Web Application Development modules, especially Love Running and BoardwalkGames, on which I have referred to a lot in the building of the entire project from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge. Thank you CI, team - much, much appreciated! 
+- Big thanks to Code Institute’s team as well as materials and Level 5 Diploma in Web Application Development modules, especially Love Running and Boardwalk Games, on which I have referred to a lot in the building of the entire project from planning to coding to documenting. I have learned so much from the modules that I have been able to apply to this project. These materials have given me a great base for learning, best practices, and more knowledge. Thank you CI team for your support and hard work - much, much appreciated! 
 - Special thanks to ChatGPT by OpenAI for assistance in troubleshooting and debugging, as well as support in ideas and structure especially in documenting this project.
+- Thank you to all the mentioned in this readme and in VScode (especially the comments) that was helpful in making this project!
 
